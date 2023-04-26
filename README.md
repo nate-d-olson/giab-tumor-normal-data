@@ -12,7 +12,7 @@ the project.
 
 
 # Proposed Data Management Workflow Diagram
-
+```mermaid
 graph TD
   A[Data generators] --> B[Upload data to FTP]
   B --> C[Execute fastq pipeline]
@@ -27,7 +27,7 @@ graph TD
   E --> H(Metadata collection)
   F --> H(Metadata collection)
   H --> I[Deploy web portal]
-
+```
 
 # Directory structure for this data management workflow
 ```
