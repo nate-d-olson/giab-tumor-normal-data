@@ -1,0 +1,28 @@
+{
+	"sample_metadata": {
+	  "sample_id": "",
+	  "sample_type": "",
+	  "tumor_cell_line": "",
+	  "collection_date": "",
+	  "institution": "",
+	  "contact_person": {
+		"name": "",
+		"email": "",
+		"phone": ""
+	  }
+	},
+	"sequencing_technology_metadata": {
+	  "sequencing_platform": "",
+	  "sequencing_technology": "",
+	  "sequencing_kit": "",
+	  "sequencing_library_preparation": "",
+	  "read_length": ""
+	},
+	"raw_data_metadata": {
+	  "file_name": "",
+	  "read_type": "",
+	  "read_direction": "",
+	  "file_format": "",
+	  "file_size": ""
+	}
+  }

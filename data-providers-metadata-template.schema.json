@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "sample_metadata": {
+      "type": "object",
+      "properties": {
+        "sample_id": { "type": "string" },
+        "sample_type": { "type": "string" },
+        "tumor_cell_line": { "type": "string" },
+        "collection_date": { "type": "string", "format": "date" },
+        "institution": { "type": "string" },
+        "contact_person": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "email": { "type": "string", "format": "email" },
+            "phone": { "type": "string", "pattern": "^[0-9]{10}$" }
+          },
+          "required": ["name", "email", "phone"]
+        }
+      },
+      "required": ["sample_id", "sample_type", "tumor_cell_line", "collection_date", "institution", "contact_person"]
+    },
+    "sequencing_technology_metadata": {
+      "type": "object",
+      "properties": {
+        "sequencing_platform": { "type": "string" },
+        "sequencing_technology": { "type": "string" },
+        "sequencing_kit": { "type": "string" },
+        "sequencing_library_preparation": { "type": "string" },
+        "read_length": { "type": "integer" }
+      },
+      "required": ["sequencing_platform", "sequencing_technology", "sequencing_kit", "sequencing_library_preparation", "read_length"]
+    },
+    "raw_data_metadata": {
+      "type": "object",
+      "properties": {
+        "file_name": { "type": "string" },
+        "read_type": { "type": "string" },
+        "read_direction": { "type": "string" },
+        "file_format": { "type": "string" },
+        "file_size": { "type": "number", "minimum": 0 }
+      },
+      "required": ["file_name", "read_type", "read_direction", "file_format", "file_size"]
+    }
+  },
+  "required": ["sample_metadata", "sequencing_technology_metadata", "raw_data_metadata"]
+}
