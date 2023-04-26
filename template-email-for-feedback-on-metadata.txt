@@ -1,0 +1,20 @@
+Subject: Request for feedback on metadata templates for data management workflow
+
+Dear [Collaborator],
+
+I am writing to request your input on the metadata templates that we have defined for our data management workflow. As you know, we are working on characterizing genomic variants in a batch of reference material DNA and RNA from a tumor cell line, using different sequencing technologies at different institutions. The data will be made publicly available on an FTP, and collaborators will access the data to generate variant call sets and genome assemblies. These variant call sets and genome assemblies will be used in downstream analysis for the reference characterizations.
+
+To ensure that we can effectively manage this data and ensure its reproducibility and quality, we have defined metadata templates for each data type, including fastq files, alignment files (BAM), variant call sets (VCF), and genome assemblies. These templates include information such as sample IDs, sequencing platform and parameters, and quality control metrics.
+
+We would like to request your feedback on these templates to ensure that they are comprehensive and suitable for our needs. Specifically, we would like to know:
+
+    Are there any additional metadata fields that you think should be included in these templates?
+    Are there any existing fields that you think are unnecessary or could be combined?
+    Are there any changes that you would suggest to the structure or formatting of these templates?
+
+We would greatly appreciate any feedback that you can provide on these templates, as we believe that collaboration and feedback are essential to ensuring the success of this project. If you have any questions or comments, please do not hesitate to reach out to me or any member of the team.
+
+Thank you for your help, and we look forward to working with you on this project.
+
+Best regards,
+[Your Name]
