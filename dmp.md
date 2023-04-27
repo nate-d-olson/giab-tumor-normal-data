@@ -1,7 +1,11 @@
 # Project DMP: Characterizing Genomic Variants in Reference Material DNA and RNA
 
 ## Project Overview
-The aim of this project is to characterize genomic variants in a batch of reference material DNA and RNA obtained from a tumor cell line. The project involves multiple institutions utilizing different sequencing technologies. The generated data will be made publicly available via an FTP server, where collaborators can access it to generate variant call sets and genome assemblies. These variant call sets and genome assemblies will be used for downstream analysis and reference characterizations.
+The aim of this project is to characterize genomic variants in a batch of reference material DNA and RNA obtained from a tumor cell line.
+The project involves multiple institutions utilizing different sequencing technologies. 
+The generated data will be made publicly available via an FTP server, 
+where collaborators can access it to generate variant call sets and genome assemblies. 
+These variant call sets and genome assemblies will be used for downstream analysis and material characterizations.
 
 ## Data Sharing
 1. Raw Data: The raw sequencing data (FASTQ files) generated from different sequencing technologies will be stored and shared via the FTP server. Each dataset will be organized in separate directories, labeled with relevant metadata (e.g., institution, sequencing technology).
@@ -17,15 +21,14 @@ The aim of this project is to characterize genomic variants in a batch of refere
 
 ## Long-Term Preservation
 1. Data Backup: Regular backups of the FTP server will be performed to ensure data integrity and availability. Multiple copies of the data will be maintained on separate storage systems.
-2. Version Control: The FTP server will employ version control mechanisms to track changes in the data, ensuring traceability and reproducibility.
-3. Persistent Identifiers: Data files, including variant call sets and genome assemblies, will be assigned persistent identifiers (e.g., DOIs or DataCite) to ensure long-term discoverability and accessibility.
+2. Version Control: The FTP server will employ version control mechanisms to track changes in the data, ensuring traceability and reproducibility. (Potentailly will want to cut)
+3. Persistent Identifiers: Data files, including variant call sets and genome assemblies, will be assigned persistent identifiers (e.g., DOIs or DataCite) to ensure long-term discoverability and accessibility. This can be achieved by depositing in SRA and analysis files on data.nist.gov
 
 ## Data Access and Collaboration
-1. Collaboration Agreement: Collaborators accessing the data on the FTP server will be required to sign a collaboration agreement or data access agreement outlining the terms of data usage, including proper citation, data handling, and publication policies.
-2. Access Control: The FTP server will implement access controls to restrict data access to authorized collaborators. Access permissions will be granted based on project roles and responsibilities.
-3. Collaboration Platform: A dedicated collaboration platform (e.g., project management software, communication tools) will be established to facilitate effective communication, data sharing, and coordination among project members and collaborators.
+1. The data for this project will be made publicly available after initial quality control. 
+1. If you would like to contribute sequencing data or analyses to this project please contact Nate Olson at nolson@nist.gov
 
 ## Ethical Considerations and Data Privacy
 1. Ethical Compliance: The project will comply with all relevant ethical guidelines, regulations, and institutional policies regarding the handling, storage, and sharing of genomic data.
-2. Anonymization: Personal identifiers will be removed or de-identified from the data to protect patient privacy and ensure compliance with data protection regulations.
-3. Informed Consent: If applicable, appropriate informed consent will be obtained from the individuals
+2. Anonymization: Personal identifiers will be removed or de-identified from the data to protect patient privacy and ensure compliance with data protection regulations. 
+3. Informed Consent: The sample donors have consented to make their genome sequence and data from their samples publicly available for commercial and non-commercial use.
