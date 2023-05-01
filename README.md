@@ -249,6 +249,7 @@ and repeatable manner, reducing the risk of errors and improving the reliability
 
 
 ## TODO 
+- Add reference to currently available data https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/technical/MGH3066_TumorNormal/
 - Revise filenaming conventions - currently too simplistic and not informative
 - get feedback on metadata schema
 - Create dev environment for this workflow
